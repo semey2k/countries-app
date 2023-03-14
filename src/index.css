@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: #F2F2F2;
+  transition:all 0.2s ease-in-out
+}
+
+.container {
+  max-width: 1300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.dark{
+  background-color: #202C36!important;
+}
+
