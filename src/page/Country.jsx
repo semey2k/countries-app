@@ -20,7 +20,7 @@ const Country = () => {
   return (
     <div className="container">
       <Link
-        to={'/countries-app'}
+        to={'/countries-app/'}
         className="ml-[18px] md:ml-0 mt-[40px] md:mt-[80px] py-[10px] hover:bg-[#ffffff23] ease-in-out duration-200 dark:hover:bg-[#2b384480] px-[24px] md:px-[32px] bg-white shadow-md dark:bg-[#2B3844] dark:text-white rounded-md cursor-pointer inline-flex items-center text-base text-[#111517
 ] font-normal">
         <span>
